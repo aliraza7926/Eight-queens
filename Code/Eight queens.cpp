@@ -275,9 +275,10 @@ int main()
     for(;;)
     {
         system("cls");
-        cout<<"             ____________ WELCOME ____________"<<endl<<endl;
+        cout<<"                         ____________ WELCOME ____________"<<endl<<endl;
         cout<<"This program is designed to show all the ways in which eight queens can be represented on a chessboard"<<endl;
-        cout<<endl<<"Please enter a number between 1 and 92 enter 0 for EXIT."<<endl;
+        cout<<"This question has 92 different answers."<<endl;
+        cout<<endl<<"Please enter a number between 1 and 92  to see the desired mode enter 0 for EXIT."<<endl;
         int user_number;
         cin>>user_number;
         if(user_number>=1&&user_number<=92)
